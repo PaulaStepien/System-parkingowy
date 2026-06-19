@@ -157,3 +157,54 @@ body {
     min-height: 20px;
 }
 
+/* "oferta.html" */
+.container {
+    max-width: 1000px;
+    margin: 40px auto; 
+    padding: 0 20px;
+}
+
+.hero-oferta {
+    margin-bottom: 60px; 
+    text-align: center;
+}
+
+.lead {
+    font-size: 1.25rem;
+    color: #555;
+    max-width: 800px;
+    margin: 20px auto; 
+}
+
+.features-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+    gap: 30px; 
+    margin: 40px 0;
+}
+
+.card {
+    padding: 25px;
+    border: 1px solid #e0e0e0;
+    border-radius: 12px;
+    background: #fff;
+    box-shadow: 0 4px 6px rgba(0,0,0,0.05);
+}
+
+.cta-section {
+    text-align: center;
+    padding: 40px 0;
+}
+
+/* polityka.html */
+.polityka-container {
+    max-width: 800px;
+    margin: 40px auto;
+    padding: 20px;
+    line-height: 1.6;
+}
+
+.polityka-container ul {
+    padding-left: 60px; 
+    margin-bottom: 15px;
+}
