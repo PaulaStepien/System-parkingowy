@@ -1,0 +1,159 @@
+/* "index.html" */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    color: #333;
+}
+
+/* Górny pasek */
+.topbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 16px 32px;
+    background: #1f2937;
+    color: #fff;
+}
+
+.topbar .logo {
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.topbar nav a {
+    color: #fff;
+    text-decoration: none;
+    margin-left: 24px;
+}
+
+/* Niebieski przycisk */
+.btn {
+    background: #2563eb;
+    color: #fff;
+    padding: 10px 20px;
+    border-radius: 6px;
+    text-decoration: none;
+    display: inline-block;
+}
+
+.btn:hover {
+    background: #1d4ed8;
+}
+
+.btn-duzy {
+    padding: 14px 28px;
+    font-size: 18px;
+    margin-top: 24px;
+}
+
+/* Sekcja główna */
+.hero {
+    background-color: #374151;
+    background-image: url('../img/parking.jpg');
+    background-size: cover;
+    background-position: center;
+    min-height: 70vh;
+    display: flex;
+    align-items: center;
+    padding: 0 32px;
+}
+
+.hero-tekst {
+    background: rgba(0, 0, 0, 0.55);
+    color: #fff;
+    padding: 40px;
+    border-radius: 10px;
+    max-width: 520px;
+}
+
+.hero-tekst h1 {
+    font-size: 34px;
+    margin-bottom: 16px;
+}
+
+.hero-tekst p {
+    font-size: 17px;
+    line-height: 1.6;
+}
+
+/* Stopka */
+.stopka {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 32px;
+    background: #1f2937;
+    color: #fff;
+}
+
+.stopka a {
+    color: #93c5fd;
+    text-decoration: none;
+}
+
+/* "login.html" */
+.login-wrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 80vh;
+    background: #f3f4f6;
+}
+
+.login-card {
+    background: #fff;
+    padding: 40px;
+    border-radius: 10px;
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+    width: 100%;
+    max-width: 360px;
+}
+
+.login-card h1 {
+    margin-bottom: 24px;
+    text-align: center;
+}
+
+.login-card label {
+    display: block;
+    margin-bottom: 6px;
+    font-weight: bold;
+}
+
+.login-card input {
+    width: 100%;
+    padding: 12px;
+    margin-bottom: 18px;
+    border: 1px solid #d1d5db;
+    border-radius: 6px;
+    font-size: 15px;
+}
+
+.login-card button {
+    width: 100%;
+    padding: 12px;
+    background: #2563eb;
+    color: #fff;
+    border: none;
+    border-radius: 6px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+.login-card button:hover {
+    background: #1d4ed8;
+}
+
+.komunikat {
+    margin-top: 16px;
+    text-align: center;
+    color: #dc2626;
+    min-height: 20px;
+}
+
