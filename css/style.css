@@ -90,11 +90,13 @@ body {
     padding: 20px 32px;
     background: #1f2937;
     color: #fff;
-    flex-wrap: wrap; 
+    flex-wrap: wrap;
     gap: 15px;
 }
 
-.footer-dane, .footer-srodek, .footer-prawa {
+.footer-dane,
+.footer-kontakt,
+.footer-polityka {
     flex: 1;
 }
 
@@ -178,12 +180,12 @@ body {
 /* "oferta.html" */
 .container {
     max-width: 1000px;
-    margin: 40px auto; 
+    margin: 40px auto;
     padding: 0 20px;
 }
 
 .hero-oferta {
-    margin-bottom: 60px; 
+    margin-bottom: 60px;
     text-align: center;
 }
 
@@ -191,13 +193,13 @@ body {
     font-size: 1.25rem;
     color: #555;
     max-width: 800px;
-    margin: 20px auto; 
+    margin: 20px auto;
 }
 
 .features-grid {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
-    gap: 30px; 
+    gap: 30px;
     margin: 40px 0;
 }
 
@@ -206,7 +208,7 @@ body {
     border: 1px solid #e0e0e0;
     border-radius: 12px;
     background: #fff;
-    box-shadow: 0 4px 6px rgba(0,0,0,0.05);
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.05);
 }
 
 .cta-section {
@@ -223,7 +225,7 @@ body {
 }
 
 .polityka-container ul {
-    padding-left: 60px; 
+    padding-left: 60px;
     margin-bottom: 15px;
 }
 
@@ -383,7 +385,8 @@ body {
 
 .badge-ok {
     background: #d1fae5;
-    color: #065f46; /* zielony - wylosowany */
+    color: #065f46;
+    /* zielony - wylosowany */
 }
 
 .badge-rez {
@@ -449,6 +452,7 @@ body {
         flex-direction: column;
         text-align: center;
     }
+
     .footer-polityka {
         text-align: center;
     }
