@@ -6,7 +6,7 @@ dla pracowników firmy. Projekt w budowie.
 ## Cel projektu
 
 Zastąpienie ręcznego przydzielania ograniczonej liczby miejsc parkingowych
-przejrzystym losowaniem z równymi szansami i pełną historią przydziałów.
+przejrzystym systemem losowania, który daje wszystkim zainteresowanym równe szanse oraz przechowuje pełną historię przydziałów.
 
 ## Technologie
 
@@ -16,14 +16,13 @@ przejrzystym losowaniem z równymi szansami i pełną historią przydziałów.
 - Środowisko: Laragon (Apache + PHP + MySQL)
 - Narzędzia: VS Code, Git, GitHub
 
-## Planowane funkcje
+## Funkcjonalność
 
-- [ ] Logowanie i role użytkowników (administrator / pracownik)
-- [ ] Zarządzanie kontami pracowników
-- [ ] Konfiguracja parkingu (liczba miejsc, lista rezerwowa)
-- [ ] Planowanie i przeprowadzanie losowań
-- [ ] Algorytm losowania z wagami
-- [ ] Podgląd wyników i historii losowań
+- [ ] Role użytkowników: Podział na administratora (zarządzanie systemem) oraz pracownika (zgłoszenia do losowania).
+- [ ] Zarządzanie kontami: Rejestracja i edycja profili pracowników.
+- [ ] Konfiguracja parkingu: Definiowanie liczby dostępnych miejsc oraz zarządzanie listą rezerwową.
+- [ ] Mechanizm losowania: Możliwość planowania i przeprowadzania losowań. Algorytm uwzględniający wagi.
+- [ ] Historia: Czytelny podgląd wyników bieżacych i poprzednich losowań.
 
 ## Podział prac
 
