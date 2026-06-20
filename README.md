@@ -28,3 +28,25 @@ przejrzystym systemem losowania, który daje wszystkim zainteresowanym równe sz
 
 - Backend — Paulina Stępień
 - Frontend — Barbara Dudek
+
+## Instalacja i uruchomienie w środowisku lokalnym
+
+Aby uruchomić aplikację w środowisku lokalnym, wykonaj poniższe kroki. Instrukcja zakłada użycie środowiska Laragon (zalecane dla Windows) lub podobnego.
+
+1. Przygotowanie środowiska
+- [ ] Upewnij się, że masz zainstalowane oprogramowanie serwerowe (np. Laragon, XAMPP lub WAMP).
+- [ ] Uruchom serwery Apache oraz MySQL.
+
+2. Klonowanie/Kopiowanie plików
+Skopiuj zawartość repozytorium projektu do głównego folderu serwera (w Laragonie jest to C:\laragon\www\system_parkingowy).
+
+3. Konfiguracja bazy danych
+- [ ] Uruchom panel zarządzania bazą danych (np. phpMyAdmin lub HeidiSQL).
+- [ ] Utwórz nową bazę danych o nazwie system_parkingowy (kodowanie utf8mb4_unicode_ci).
+- [ ] Zaimportuj plik init.sql znajdujący się w głównym katalogu projektu:
+- [ ] W phpMyAdmin: Importuj -> Wybierz plik -> Wykonaj.
+- [ ] W konsoli MySQL: mysql -u root -p system_parkingowy < init.sql.
+
+4. Uruchomienie aplikacji
+- [ ] Otwórz przeglądarkę internetową i wpisz adres: http://localhost/system_parkingowy/.
+- [ ] Aplikacja powinna się załadować. Strona startowa dostępna jest w pliku index.html.
