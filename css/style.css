@@ -90,6 +90,24 @@ body {
     padding: 20px 32px;
     background: #1f2937;
     color: #fff;
+    flex-wrap: wrap; 
+    gap: 15px;
+}
+
+.footer-lewa, .footer-srodek, .footer-prawa {
+    flex: 1;
+}
+
+.footer-srodek {
+    text-align: center;
+}
+
+.footer-prawa {
+    text-align: right;
+}
+
+.footer-srodek p {
+    margin: 2px 0;
 }
 
 .stopka a {
