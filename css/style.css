@@ -94,19 +94,19 @@ body {
     gap: 15px;
 }
 
-.footer-lewa, .footer-srodek, .footer-prawa {
+.footer-dane, .footer-srodek, .footer-prawa {
     flex: 1;
 }
 
-.footer-srodek {
+.footer-kontakt {
     text-align: center;
 }
 
-.footer-prawa {
+.footer-polityka {
     text-align: right;
 }
 
-.footer-srodek p {
+.footer-kontakt p {
     margin: 2px 0;
 }
 
@@ -449,7 +449,7 @@ body {
         flex-direction: column;
         text-align: center;
     }
-    .footer-prawa {
+    .footer-polityka {
         text-align: center;
     }
 }
