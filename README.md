@@ -28,11 +28,3 @@ przejrzystym systemem losowania, który daje wszystkim zainteresowanym równe sz
 
 - Backend — Paulina Stępień
 - Frontend — Barbara Dudek
-
-## Instalacja
-
-Instrukcja zostanie uzupełniona w dalszej części projektu.
-
-## Status
-
-🚧 W trakcie realizacji.
